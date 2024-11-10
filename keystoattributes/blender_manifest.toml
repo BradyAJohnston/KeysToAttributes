@@ -1,0 +1,23 @@
+schema_version = "1.0.0"
+
+# Example of manifest file for a Blender extension
+# Change the values according to your extension
+id = "keystoattributes"
+version = "1.0.0"
+name = "Keys To Attributes"
+tagline = "Bake shape keys as attributes for access in Geometry Nodes"
+maintainer = "Brady Johnston"
+type = "add-on"
+
+# Optional link to documentation, support, source files, etc
+# website = "https://extensions.blender.org/add-ons/my-example-package/"
+
+tags = ["Bake", "Geometry Nodes", "Mesh", "Animation"]
+
+blender_version_min = "4.2.0"
+license = [
+  "SPDX:GPL-3.0-or-later"
+]
+copyright =[
+	"2024 Brady Johnston",
+]
